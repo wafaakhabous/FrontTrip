@@ -444,3 +444,33 @@
     padding-right: 0;
     border-right: none;
 }
+
+
+
+
+
+.about-us-container {
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    text-align: justify;
+    background-color: var(--primary);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-us-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .about-us-text {
+    font-size: 16px;
+    color: var(--light);
+  }
+  
+  /* Add some margin or padding to space out the text if needed */
+  

@@ -32,8 +32,8 @@ const Navbar = () => {
             <Link to="/Home" className="nav-item nav-link" >Home</Link>
             <Link to="/about" className="nav-item nav-link">About</Link>
             <Link to="/service" className="nav-item nav-link">Services</Link>
-            <Link to="/package" className="nav-item nav-link">Packages</Link>
-            <div className="nav-item dropdown">
+            <Link to="/Listproducts" className="nav-item nav-link">MarketPlace</Link>
+            {/* <div className="nav-item dropdown">
               <Link to="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</Link>
               <div className="dropdown-menu m-0">
                 <Link to="/destination" className="dropdown-item">Destination</Link>
@@ -42,7 +42,7 @@ const Navbar = () => {
                 <Link to="/testimonial" className="dropdown-item">Testimonial</Link>
                 <Link to="/404" className="dropdown-item">404 Page</Link>
               </div>
-            </div>
+            </div> */}
             <Link to="/contact" className="nav-item nav-link">Contact</Link>
           </div>
           <Link to="/login" className="btn btn-primary rounded-pill py-2 px-4">Register</Link>
